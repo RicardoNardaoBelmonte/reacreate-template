@@ -1,0 +1,863 @@
+/*----------------    CUSTOM         ---------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.custom-font-black{
+    color: black;
+}
+
+.custom-font-white{
+    color: white;
+}
+
+.padding-margin-zerados{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------    CUSTOM         ---------------------*/
+
+
+/*----------------    HEADER         ---------------------*/
+
+header{
+    background-color: #28414F;
+    padding: 8px;
+    nav{
+        display: flex;
+        margin-bottom: 0 !important;
+            .menu-nav-left{ 
+                font-size: 15px;
+                width: 70%;
+                align-items: center;
+                margin-top: 5px;
+                li{
+                    font-family: "Lato", sans-serif;
+                }
+                .cifrao{
+                    padding-top: 5px;
+                }
+
+                li a:hover {
+                    background-color: #28414F;
+                    color: white;
+                }
+            }
+
+            .menu-nav-right{
+                display: flex;
+                font-size: 15px;
+                width: 30%;
+                li{
+                    font-family: "Lato", sans-serif;
+                    padding-left: 2.5px;
+                    a{
+                        color: white;
+                        
+                    }
+                    img{
+                        width: 20px;
+                        margin-left: 0;
+                    }
+                }
+                li a:hover{
+                    background-color: #28414F;
+                }
+
+                button{
+                    background-color: white;
+                    .icon-bar{
+                        color: white;
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+/*----------------    HEADER         ---------------------*/
+
+/*----------------    BANNER         ---------------------*/
+
+#banner{
+    background-image: url(../pictures/section-banner/banner.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 760px;
+    #logo{
+        width: 23%;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        top: 85px;
+        left: 150px;
+    }
+
+    #supermarket{
+        width: 4.3%;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        right: 170px;
+    }
+    
+    form{
+        position: absolute;
+        z-index: 1;
+        top: 350px;
+        right: 170px;
+        border: 1px solid;
+        border-image-source: linear-gradient(117.77deg, #546E85 15.02%, rgba(0, 0, 0, 0) 91.31%);
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 4px 0px rgba(88, 124, 155, 1) inset;
+        background: linear-gradient(107.97deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+        color: white;
+        border-radius: 20px;
+        width: 450px;
+        .form-container{
+            padding: 30px 40px 30px 40px;
+            width: 100%;
+            #titulo-form{
+                color: white;
+                font-family: "Gurajada", sans-serif;
+                font-size: 45px;
+                margin-bottom: 30px;
+                text-align: center;
+            }  
+
+            #form-phone{
+                width: 100%;
+                label{
+                    background-color: #DCDCDC;
+                    color: #494949;
+                    padding: 15px 5px 15px 5px;
+                    border-radius: 10px;
+                    font-size: 15px;
+                }
+
+                input{
+                    background-color: #DCDCDC;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    border: none;
+                    padding: 10px 70px 15px 10px;
+                    width: 70%;
+                    margin-left: 20px;
+                }
+
+            }
+            .button-form{
+                background: #39596A;
+                padding: 10px;
+                margin-top: 15px;
+                border-radius: 10px;
+                font-family: "Gurajada", sans-serif;
+                text-align: center;
+                font-size: 35px;
+                border: none;
+                width: 100%;
+            }
+        }        
+    }
+        #title-div-banner{
+            position: absolute;
+            z-index: 1;
+            top: 670px;
+            left: 150px;
+            width: 100%;
+            h1{
+                color: white;
+                font-family: "Gurajada", sans-serif;
+                font-size: 70px;
+
+            }
+            p{
+                font-family: "Smooch", cursive;
+                color: white;
+                font-size: 28px;
+                word-spacing: 5px;
+            }
+            .row{
+
+                .left-div{
+                    padding-right: 0 !important;
+                }
+                .right-div{
+                    padding-left: 0 !important;
+                    .linha-lateral{
+                        border-top: 1px solid rgba(255, 255, 255, 1);
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+}
+/*----------------    BANNER         ---------------------*/
+
+/*----------------    GALERIA         ---------------------*/
+
+#galeria{
+    .col-xs-4{
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        img{
+            width: 100%;
+            height: 400px;
+        }
+        .div-click{
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            width: 100%;
+            height: 400px;
+            background: rgba(23, 23, 23, 0.5);
+            opacity: 0;
+            p{
+                padding-top: 150px;
+                padding-left: 70px;
+                color: white;
+                font-size: 20px;
+                width: 400px;
+                font-family: "Lato", sans-serif;
+            }
+        }
+
+        a{
+            .design-bottom{
+                position: absolute;
+                z-index: 1;
+                top: 330px;
+                background: rgba(57, 89, 106, 1);
+                width: 100%;
+                text-align: center;
+                align-items: center;
+                height: 70px;
+                padding-top: 20px;
+                
+                span{   
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    color: white;
+                    font-size: 17px;
+                    gap: 15px;
+                    img{
+                        width: 8%;
+                        height: auto;
+                    }
+                    .arrow{
+                        width: 4%;
+                    }
+                    .gear{
+                        width: 6%;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+}
+/*----------------    GALERIA         ---------------------*/
+
+
+/*----------------    SECTION CRUZEIRO         ---------------------*/
+
+.section-cruzeiro{
+    background-color: rgb(245,245, 245);
+    .texto-cruzeiro{
+        text-align: center;
+        h1{
+            font-family: "Gurajada", sans-serif;
+            font-size: 60px;
+            margin-bottom: 0  !important;
+            margin-top: 80px;
+        }
+        
+        h2{
+            font-family: "Smooch", cursive;
+            font-size: 50px;
+            margin-top: 0 !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 1);
+            width: 70%;
+            margin-left: 100px;
+            color: rgba(40, 65, 79, 1);
+        }
+        
+        p{
+            margin-top: 60px;
+            color: rgba(0, 0, 0, 1);
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+        }
+        
+        div{
+            font-family: "Lato", sans-serif;
+            font-size: 35px;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 100px;
+            span{
+                font-weight: bold;
+            }
+        }
+        
+        .div-botoes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            .circle{
+                width: 15px;
+                height: 15px;
+                border: 1px solid black;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            
+            .background{
+                background-color: rgba(69, 69, 69, 1);
+            }
+        }
+    }
+    
+    .imagem-cruzeiro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        div{
+            margin-top: 110px;
+            border: 1px solid rgba(0, 0, 0, 1);
+            width: 75%;
+            padding: 20px 20px 20px 20px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+    
+    
+    
+    /*----------------    SECTION CRUZEIRO         ---------------------*/
+    
+    
+    /*----------------    SECTION SERVICES         ---------------------*/
+#section-services{
+    height: 650px;
+    background-image: url(../pictures/section-services/ocean-background.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-bottom: 50px;
+    .container{
+        text-align: center;
+        h1{
+            font-family: "Lato", sans-serif;
+            font-size: 50px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+        .row{
+            display: flex;
+            text-align: center;
+            .col-md-4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .div-card-services{
+                    background-color: white;
+                    border-radius: 10px;
+                    padding: 20px 40px 20px 40px;
+                    height: 450px;
+                    text-align: center;
+                    .imagem-card{
+                        height: 156px;     
+                    }
+                    h2{
+                        font-family: "Gurajada", sans-serif;
+                        color: rgba(77, 104, 118, 1);
+                        font-size: 50px;
+                    }
+                    p{
+                        padding-top: 5px;
+                        color: rgba(0, 0, 0, 1);
+                        font-family: "Lato", sans-serif;
+                        font-size: 20px;
+                    }
+                    .link-details{
+                        margin-top: 50px;
+                        margin-left: 180px;
+                        a{
+                            font-family: "Lato", sans-serif;
+                            color: rgba(77, 104, 118, 1);
+                            text-decoration: none;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*----------------    SECTION SERVICES         ---------------------*/
+
+/*----------------    SECTION MOST POPULAR SERVICES         ---------------------*/
+
+#section-most-popular{
+    background-color: rgb(245,245, 245);
+    padding-bottom: 150px;
+    .container{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-family: "Lato", sans-serif;
+            font-size: 50px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            color: rgba(40, 65, 79, 1);
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 20px;
+            .com-md-3{
+                position: relative;
+                img{
+                    height: 260px;
+                    width: 260px;
+                }
+                .div-dentro{
+                    position: absolute;
+                    z-index: 1;
+                    top: 210px;
+                    left: 130px;
+                    padding: 15.2px 12.79px 15.2px 12.79px;
+                    background-color: rgba(77, 104, 118, 1);
+                    span{
+                        color: white;
+                        font-family: "Inter", sans-serif;
+                        font-size: 13px;
+                    }
+                }
+                .div-fora{
+                    background-color: rgba(255, 255, 255, 1);
+                    text-align: left !important;
+                    padding: 10px;
+                    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+                    h5{
+                        color: rgba(108, 108, 108, 1);
+                        font-family: "Inter", sans-serif;
+                        margin-left: 20px;
+                    }
+                    h4{
+                        font-family: "Inter", sans-serif;
+                        margin-left: 20px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .div-see-all{
+            margin-top: 70px;
+            a{
+                font-family: "Inter", sans-serif;
+                color: white;
+                font-size: 17px;
+                background-color: rgba(77, 104, 118, 1);
+                border-radius: 5px;
+                padding: 15px 70px 15px 70px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/*----------------    SECTION MOST POPULAR SERVICES         ---------------------*/
+
+/*----------------    SECTION MOST POPULAR MARINAS         ---------------------*/
+
+#section-most-marinas{
+    position: relative;
+    height: 750px;
+    background-color: rgb(245,245,245);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        .row{
+            position: absolute;
+            z-index: 3;
+            top: 200px;
+            .col-md-4{
+                .div-text-card{
+                    position: absolute;
+                    z-index: 1;
+                    top: 230px;
+                    left: 80px;
+                    width: 75.5%;  
+                    height: 150px;
+                    text-align: start;
+                    background-color: rgba(255, 255, 255, 1);
+                    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+                    padding: 20px 0px 0px 20px;
+                    span{
+                        font-size: 25px;
+                        color: rgba(60, 60, 60, 1);
+                        font-family: "Lato", sans-serif;
+                        font-weight: bold;
+
+                    }
+                    .Details{
+                        margin-top: 20px;
+                        font-size: 17px;
+                        margin-left: 170px;
+                        a{
+                            color: rgba(77, 104, 118, 1);
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .behind{
+        height: 350px;
+        width: 100%;
+        background-image: url(../pictures/section-most-marinas/background-marinas.png);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        align-items: center;
+        text-align: center;
+        h1{
+            color: rgba(244, 244, 244, 1);
+            font-family: "Lato", sans-serif;
+            font-size: 50px;
+        } 
+
+        h2{
+            color: rgba(255, 255, 255, 1);
+            font-family: "Smooch", cursive;
+            font-size: 30px;
+        }
+    }
+
+    .div-botoes{
+        position: absolute;
+        top: 670px;
+        display: flex;
+        left: 50%;
+        right: 50%;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        .circle{
+            width: 15px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .background{
+            background-color: rgba(69, 69, 69, 1);
+        }
+    }
+
+}
+
+/*----------------    SECTION MOST POPULAR MARINAS         ---------------------*/
+
+/*----------------    SECTION BLOG       ---------------------*/
+
+.blog{
+    background-color: rgba(235, 235, 235, 1);
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+    height: 800px;
+    h1{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: rgba(77, 104, 118, 1);
+        font-family: "Lato", sans-serif;
+        font-size: 40px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: start;
+        .flex{
+            display: flex;
+            justify-content: space-between;
+
+            .div-text-card{
+                position: absolute;
+                z-index: 0;
+                top: 50px;
+                left: 200px;
+                width: 90%;
+                background-color: rgba(255, 255, 255, 1);
+                height: 450px;
+                box-shadow: 0px 4px 4px 0px rgba(1, 166, 252, 1);
+                h2{
+                    color: rgba(0, 0, 0, 1);
+                    font-family: "Lato", sans-serif;
+                    font-weight: bold;
+                }
+                p{
+                    padding-top: 15px;
+                    width: 90%;
+                    text-align: left;
+                    padding-left: 30px;
+                    color: rgba(89, 89, 89, 1);
+                    font-family: "Lato", sans-serif;
+                    font-size: 17px ;
+                }
+                .link-details{
+                    margin-top: 70px;
+                    text-align: left;
+                    padding-left: 30px;
+                    a{
+                        font-family: "Lato", sans-serif;
+                        color: rgba(77, 104, 118, 1);
+                        text-decoration: none;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .flex-end{ 
+                margin-left: 250px; 
+            }
+        }
+
+    }
+    .div-see-all{
+        margin-top: 120px;
+        a{
+            font-family: "Inter", sans-serif;
+            color: white;
+            font-size: 17px;
+            background-color: rgba(77, 104, 118, 1);
+            border-radius: 5px;
+            padding: 15px 70px 15px 70px;
+            text-decoration: none;
+        }
+    }
+}
+
+/*----------------    SECTION BLOG       ---------------------*/
+/*----------------    SECTION PARTNERS       ---------------------*/
+
+#section-partners{
+    background-color: rgb(245, 245, 245);
+    height: 700px;
+    text-align: center;
+    h1{
+        color: rgba(77, 104, 118, 1);
+        font-family: "Lato", sans-serif;
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    #banner-partners{
+        background-image: url(../pictures/section-partners/banner-partners.png);
+        background-size: cover; 
+        height: 300px;
+    }
+
+    .div-botoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        .circle{
+            width: 15px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 50px;
+        }
+        
+        .background{
+            background-color: rgba(69, 69, 69, 1);
+        }
+    }
+}
+
+
+
+/*----------------    SECTION PARTNERS       ---------------------*/
+
+
+/*----------------    SECTION HOLIDAY       ---------------------*/
+
+#section-holiday{
+    position: relative;
+    height: 1000px;
+    background-color: rgb(245, 245, 245);
+    margin-top: -20px;
+    text-align: center;
+    h1{
+        color: rgba(77, 104, 118, 1);
+        font-family: "Lato", sans-serif;
+        font-size: 50px;
+    }
+    h2{
+        color: rgba(77, 104, 118, 1);
+        font-family: "Smooch", cursive;
+        font-size: 35px;
+    }
+    .card-text{
+        margin-top: 70px;
+        margin-left: 400px;
+        width: 65%;
+        height: 680px;
+        background-color: rgba(237, 237, 237, 1);
+        #h1-card{
+            text-align: left;
+            padding-top: 120px;
+            padding-left: 300px;
+            color: rgba(89, 89, 89, 1);
+            font-family: "Lato", sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        p{
+            text-align: left;
+            padding-left: 300px;
+            padding-top: 30px;
+            width: 90%;
+            color: rgba(89, 89, 89, 1);
+            font-family: "Lato", sans-serif;
+            font-size: 17px;
+        }
+        .Details{
+            margin-top: 50px;
+            font-size: 20px;
+            margin-left: 650px;
+            a{
+                color: rgba(77, 104, 118, 1);
+                text-decoration: none;
+            }
+        }
+    }
+
+    #div-img-holiday{
+        position: absolute;
+        z-index: 1;
+        top: 270px;
+        margin-left: 100px;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+/*----------------    SECTION HOLIDAY       ---------------------*/
+
+/*----------------    SECTION MOBILE       ---------------------*/
+
+#section-mobile{
+    background-image: url(../pictures/section-mobile/background-mobile.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 600px;
+    position: relative;
+    h1{
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-size: 50px;
+        margin-top: 130px;
+        margin-left: 100px;
+        width: 50%;
+    }
+    h2{
+        margin-left: 100px;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-size: 30px;
+        margin-top: 40px;
+        width: 40%;
+
+    }
+
+    .div-img{
+        position: absolute;
+        z-index: 1;
+        top: 253px;
+        margin-left: 700px;
+    }
+}
+
+/*----------------    SECTION FOOTER       ---------------------*/
+
+footer{
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    .container{
+        padding-top: 50px;
+        .col-md-4{
+            .social-medias{
+                margin-top: 30px;
+            }
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            .col-md-8{
+                .col-md-4{
+                    ul{
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            list-style: none;
+                            h2{
+                                color: rgba(0, 0, 0, 1);
+                                font-size: 20px;
+                                font-weight: 700;
+                                font-family: "Lato", sans-serif;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: rgba(128, 128, 128, 1);
+                                font-family: "Lato", sans-serif;
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }       
+            }
+        }
+    }
+}
